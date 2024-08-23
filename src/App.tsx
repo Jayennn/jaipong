@@ -28,9 +28,10 @@ function App() {
           </div>
           <div className="col-start-1 col-end-3 row-start-1 relative overflow-hidden">
             <div className="-z-[1] bg-[#222628] opacity-[50%] w-full  absolute top-0 h-screen"></div>
-            <div className="-z-[2] relative md:max-h-screen ">
+            <img className="md:hidden bg-black -z-[2] relative h-screen object-contain w-screen" src="/placeholder.png" alt="Placeholder"/>
+            <div className="-z-[2] relative hidden md:block md:max-h-screen ">
               <video loop autoPlay muted>
-                <source src="/placeholder.mp4" type="video/mp4"/>
+                <source src="/placeholder.webm" type="video/webm"/>
               </video>
             </div>
           </div>
