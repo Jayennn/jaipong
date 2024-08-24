@@ -27,7 +27,7 @@ function App() {
           <div className="-z-[1] bg-[#222628] opacity-[50%] w-full  absolute top-0 h-screen"></div>
           <img className="md:hidden bg-black -z-[2] relative h-screen object-contain w-screen" src="/placeholder.webp" alt="Placeholder"/>
           <div className="-z-[2] relative hidden md:block md:max-h-screen ">
-            <video className="w-full" loop autoPlay muted>
+            <video className="w-full min-h-screen object-cover" loop autoPlay muted>
               <source src="/placeholder.webm" type="video/webm"/>
             </video>
           </div>
