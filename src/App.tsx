@@ -12,10 +12,10 @@ function App() {
               every rhythm of Jaipong, we express our farewells and new beginnings.</p>
             <p className="text-sm md:text-base font-medium">Click ‘Play’ to see the details</p>
             <div className="flex items-center gap-4">
-              <button className="w-full md:w-fit md:px-14 md:h-12 rounded bg-white h-10 px-4 py-2 inline-flex items-center justify-center gap-3 border shadow">
+              <Link to="https://youtu.be/4Dpq5Gxb_vk" className="w-full md:w-fit md:px-14 md:h-12 rounded bg-white h-10 px-4 py-2 inline-flex items-center justify-center gap-3 border shadow">
                 <Play size={20} fill="black" stroke="black"/>
                 <p className="text-sm md:text-lg text-[#222628] font-medium">Play</p>
-              </button>
+              </Link>
               <Link to="/information" className="w-full md:w-fit md:px-14 md:h-12 rounded bg-[#222628]/80 h-10 px-4 py-2 inline-flex items-center justify-center gap-3">
                 <Info size={20}  stroke="white"/>
                 <p className="text-sm md:text-lg text-white font-medium">Info</p>
